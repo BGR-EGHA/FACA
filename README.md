@@ -1,11 +1,14 @@
 # FACA
 
-[![DOI](TODO.svg)](TODO)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14067821.svg)](https://doi.org/10.5281/zenodo.14067821)
 
 FACA (Fully Automated Co-Alignment) automates the co-alignment workflow.
 Co-alignment uses common tiepoints over multiple surveys to increase the comparative precision ([Cook and Dietze, 2019](https://doi.org/10.5194/esurf-7-1009-2019)).
 Initially developed for use with UAV imagery to research mass movements and coastal dynamics, FACA is suitable for any research needing precise, multi-temporal point cloud generation.
 We tested FACA on Windows 10 with Metashape Professional Version 2.1.
+
+FACA is described in detail in [Schüßler et al., 2025](https://doi.org/10.5194/gmd-18-5913-2025).
 
 ## How to run FACA
 
@@ -102,9 +105,35 @@ py .\faca_main.py --input_image_dir images --output_dir out --output_epsg_code 3
 ```
 This command will replicate the FACA default values.
 
-## Test dataset
+## Test datasets
 
-We offer a test dataset [here](TODO).
+We offer three multi-temporal test datasets:
+
+| Name                     | Images  | Surveys | Link                                                                                                        | 
+---------------------------|---------|---------|-------------------------------------------------------------------------------------------------------------|
+| Sellin sand cliff        | 3606    | 7       | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14655548.svg)](https://doi.org/10.5281/zenodo.14655548) |
+| Wustrow bunker           | 2410    | 8       | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14002501.svg)](https://doi.org/10.5281/zenodo.14002501) |
+| Wustrow coastal erosion  | 3663    | 7       | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14655290.svg)](https://doi.org/10.5281/zenodo.14655290) |
+
+## Citation
+
+If you use FACA, please cite the following article:
+
+Schüßler, N., Torizin, J., Gunkel, C., Schütze, K., Tiepolt, L., Kuhn, D., … Prüfer, S. (2025). FACA v1 -- Fully Automated Co-Alignment of UAV point clouds. Geoscientific Model Development, 18(17), 5913–5935. doi:[10.5194/gmd-18-5913-2025](https://doi.org/10.5194/gmd-18-5913-2025)
+
+```bibtex
+@Article{gmd-18-5913-2025,
+AUTHOR = {Sch\"u{\ss}ler, N. and Torizin, J. and Gunkel, C. and Sch\"utze, K. and Tiepolt, L. and Kuhn, D. and Fuchs, M. and Pr\"ufer, S.},
+TITLE = {FACA v1 -- Fully Automated Co-Alignment of UAV point clouds},
+JOURNAL = {Geoscientific Model Development},
+VOLUME = {18},
+YEAR = {2025},
+NUMBER = {17},
+PAGES = {5913--5935},
+URL = {https://gmd.copernicus.org/articles/18/5913/2025/},
+DOI = {10.5194/gmd-18-5913-2025}
+}
+```
 
 ## License
 
