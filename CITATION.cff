@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: Please cite the following article when using this software.
+preferred-citation:
+  authors:
+    - family-names: Schüßler
+      given-names: Nick
+      orcid: https://orcid.org/0000-0002-2271-3007
+    - family-names: Torizin
+      given-names: Jewgenij
+      orcid: https://orcid.org/0000-0001-9990-3872
+    - family-names: Gunkel
+      given-names: Claudia
+    - family-names: Schütze
+      given-names: Karsten
+    - family-names: Tiepolt
+      given-names: Lars
+    - family-names: Kuhn
+      given-names: Dirk
+    - family-names: Fuchs
+      given-names: Michael
+    - family-names: Prüfer
+      given-names: Steffen
+  doi: 10.5194/gmd-18-5913-2025
+  identifiers:
+    - type: doi
+      value: 10.5194/gmd-18-5913-2025
+    - type: url
+      value: http://dx.doi.org/10.5194/gmd-18-5913-2025
+    - type: other
+      value: urn:issn:1991-9603
+  title: "FACA v1 – Fully Automated Co-Alignment of UAV point clouds"
+  url: http://dx.doi.org/10.5194/gmd-18-5913-2025
+  database: Crossref
+  date-published: 2025-09-11
+  year: 2025
+  month: 9
+  issn: 1991-9603
+  issue: '17'
+  journal: Geoscientific Model Development
+  languages:
+    - en
+  publisher:
+    name: Copernicus GmbH
+  start: '5913'
+  end: '5935'
+  type: article
+  volume: '18'
