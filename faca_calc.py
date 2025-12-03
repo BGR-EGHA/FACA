@@ -26,6 +26,8 @@ class FacaCalc:
     """
 
     def __init__(self, **kwargs):
+        os.makedirs(kwargs["output_dir"], exist_ok=True)
+        
         self.l = Logger()
         self.l.setupLogger(kwargs["output_dir"], kwargs["project_name"])
         self.l.l("FACA Log")
