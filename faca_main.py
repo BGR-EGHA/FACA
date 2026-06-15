@@ -70,6 +70,7 @@ class FacaMain:
                     "camera_accuracy",
                     "criterions",
                     "criterion_values",
+                    "depth_map_filtering",
                 ]:
                     settings[attribute] = value
         return settings
