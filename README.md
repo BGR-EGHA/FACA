@@ -6,7 +6,7 @@
 FACA (Fully Automated Co-Alignment) automates the co-alignment workflow.
 Co-alignment uses common tiepoints over multiple surveys to increase the comparative precision ([Cook and Dietze, 2019](https://doi.org/10.5194/esurf-7-1009-2019)).
 Initially developed for use with UAV imagery to research mass movements and coastal dynamics, FACA is suitable for any research needing precise, multi-temporal point cloud generation.
-We tested FACA on Windows 10 with Metashape Professional Version 2.1.
+We tested FACA on Windows 11 with Metashape Professional Version 2.3.1.
 
 FACA is described in detail in [Schüßler et al., 2025](https://doi.org/10.5194/gmd-18-5913-2025).
 
@@ -16,7 +16,7 @@ FACA requires a licensed [Agisoft Metashape Professional Edition](https://www.ag
 
 ### Running FACA on Windows
 
-1. Make sure you have Python 3 installed (Python 3.10 tested), if not get it from [python.org/downloads](https://www.python.org/downloads/).
+1. Make sure you have Python 3 installed (Python 3.13 tested), if not get it from [python.org/downloads](https://www.python.org/downloads/).
 2. Download FACA.
 3. Download the [Agisoft Metashape Professional Python 3 Module](https://www.agisoft.com/downloads/installer/) (navigate to Python 3 Module).
 4. Navigate to the FACA directory and open a PowerShell window (if you downloaded a zipped version, unzip it first).
